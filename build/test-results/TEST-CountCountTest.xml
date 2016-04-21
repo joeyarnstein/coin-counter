@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CountCountTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-04-21T17:32:01" hostname="epicodus-41.local" time="0.004">
+<testsuite name="CountCountTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-04-21T18:03:32" hostname="epicodus-41.local" time="0.003">
   <properties/>
-  <testcase name="count_CorrispondingStringOfNum_String" classname="CountCountTest" time="0.004">
+  <testcase name="count_CorrispondingStringOfNum_String" classname="CountCountTest" time="0.003">
     <failure message="org.junit.ComparisonFailure: expected:&lt;$[1 and 1 cents].&gt; but was:&lt;$[2 1 quarters and 1 penny].&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;$[1 and 1 cents].&gt; but was:&lt;$[2 1 quarters and 1 penny].&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
