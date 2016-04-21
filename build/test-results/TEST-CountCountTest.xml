@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CountCountTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-04-21T18:03:32" hostname="epicodus-41.local" time="0.003">
+<testsuite name="CountCountTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-04-21T20:06:08" hostname="epicodus-41.local" time="0.002">
   <properties/>
-  <testcase name="count_CorrispondingStringOfNum_String" classname="CountCountTest" time="0.003">
-    <failure message="org.junit.ComparisonFailure: expected:&lt;$[1 and 1 cents].&gt; but was:&lt;$[2 1 quarters and 1 penny].&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;$[1 and 1 cents].&gt; but was:&lt;$[2 1 quarters and 1 penny].&gt;
+  <testcase name="count_CorrispondingStringOfNum_String" classname="CountCountTest" time="0.002">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;$[1 and 1 cent]s.&gt; but was:&lt;$[2 0 quarters and 6 penny]s.&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;$[1 and 1 cent]s.&gt; but was:&lt;$[2 0 quarters and 6 penny]s.&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at CountCountTest.count_CorrispondingStringOfNum_String(CountCountTest.java:10)
@@ -53,8 +53,8 @@
   </testcase>
   <system-out><![CDATA[dolls 2
 dolls 2
-leftOver 1
-$2 1 quarters and 1 penny.
+leftOver 6
+$2 0 quarters and 6 pennys.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
